@@ -1,0 +1,24 @@
+##################### Contact info ##########################
+contactinfo:
+  enable : true
+  title : "Contact Us"
+  feature_item:
+    # feature item loop
+    - name : "Phone"
+      icon : "ti-mobile"
+      content : "+91 95959 04644 <br/> +91 94234 19506 <br/> +91 82752 33650"
+    - name : "24x7 Support"
+      icon : "ti-email"
+      content : "support@wisdomplus.in"
+    - name : "Admin Office"
+      icon : "ti-location-pin"
+      content : "203 Kamdar Complex, 2nd Floor, 73 Central Avenue, Sevasadan Square, Nagpur - 440018"
+    - name : "Registered Office"
+      icon : "ti-location-pin"
+      content : "406 Shivam Towers Satnami Layout Bhadewadi, Nagpur - 440008"
+
+maplocation:
+  link: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7442.018005950432!2d79.099308!3d21.152040000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2102687427803c16!2sWisdom%20Plus%20Business%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1603067587274!5m2!1sen!2sin"
+
+GooglForms:
+  link: "https://docs.google.com/forms/d/e/1FAIpQLSeq_6OQz1OpYmnUQkjTAMbUklYSVU7YUDf-sGRonVB7hxBq7w/viewform?embedded=true"

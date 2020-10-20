@@ -1,0 +1,32 @@
+{{ define "main" }} {{ partial "page-header.html" . }} 
+
+{{ if site.Data.aboutus.visionmission.enable }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="p-5 shadow rounded-lg" style="height: 200px">
+          <h3 class="mb-4 ti-quote-left"> Vision</h3>
+          <p>{{ site.Data.aboutus.visionmission.vision }}</p>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="p-5 shadow rounded-lg" style="height: 200px">
+          <h3 class="mb-4 ti-quote-left"> Mission</h3>
+          <p>{{ site.Data.aboutus.visionmission.mission }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<section class="section" style="padding-top: 10px">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="content">{{ .Content }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

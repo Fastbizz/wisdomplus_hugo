@@ -1,0 +1,9 @@
+##################### About Us ##########################
+aboutus:
+  enable : true
+  title : "About Us"
+
+visionmission:
+  enable: true
+  vision: "To be the World’s Most Reliable, Passionate and Innovative Organization providing creative customized comprehensive business solutions."
+  mission: "To Bring holistic transformation in the life of Small and Medium business owners to lead a divine life."

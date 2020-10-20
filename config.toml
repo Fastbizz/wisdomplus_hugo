@@ -1,0 +1,169 @@
+######################## default configuration ####################
+baseURL = "http://examplesite.org/"
+title = "http://www.wisdomplus.in/"
+theme = "bigspring"
+languageName = "En"
+languageCode = "en-us"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "15"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+
+
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "Home"
+URL = "#"
+weight = 1
+
+[[menu.main]]
+name = "About Us"
+URL = "about-us"
+weight = 2
+
+[[menu.main]]
+name = "Services"
+URL = "services"
+weight = 3
+
+[[menu.main]]
+name = "Clients"
+URL = "clients"
+weight = 4
+
+# company 
+[[menu.company]]
+name = "Home"
+URL = "#"
+weight = 1
+
+[[menu.company]]
+name = "About Us"
+URL = "about-us"
+weight = 2
+
+[[menu.company]]
+name = "Services"
+URL = "services"
+weight = 3
+
+[[menu.company]]
+name = "Clients"
+URL = "clients"
+weight = 4
+
+[[menu.company]]
+name = "Contact Us"
+URL = "contact"
+weight = 5
+
+# Services 
+[[menu.product]]
+name = "Business Automation Process"
+URL = "services/business-automation-process"
+
+[[menu.product]]
+name = "Business Boot Up Process"
+URL = "services/business-boot-up-process/"
+
+[[menu.product]]
+name = "Business System Audit"
+URL = "services/business-system-audit/"
+
+[[menu.product]]
+name = "Cultural Audit"
+URL = "services/cultural-audit/"
+
+[[menu.product]]
+name = "Strategy Consultancy"
+URL = "services/strategy-consultancy/"
+
+[[menu.product]]
+name = "Team Building"
+URL = "/services/team-building/"
+
+# Support 
+[[menu.support]]
+name = "Privacy Policy"
+URL = "privacy-policy"
+
+[[menu.support]]
+name = "Terms & Conditions"
+URL = "terms-conditions"
+
+[[menu.support]]
+name = "FAQ"
+URL = "faq"
+
+#################### default parameters ################################
+[params]
+logo = "/Uploads/longlogo.jpg"
+logo_width = "200px"
+# Meta data
+description = "This is meta description"
+author = "Abhimanyu Ghei" 
+
+########### footer content ##########
+footer_content = "406 Shivam Towers, Satnami Layout, Bhadewadi Nagpur - 440008"
+# copyright
+copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation buttons
+[params.navigation_button]
+enable = true
+label = "Contact Us"
+link = "contact"
+
+  
+############################# social site ########################
+[[params.social]]
+title = "facebook"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "https://www.facebook.com/Wisdom-109145077236348/"
+
+[[params.social]]
+title = "youtube"
+icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+link = "https://www.youtube.com/channel/UCsgpttxtjB8G5WaysFQC7rQ/"
+
+[[params.social]]
+title = "instagram"
+icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+link = "https://www.instagram.com/wisdomplusbusinesssolution/"
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "https://www.linkedin.com/in/wisdom-plus-574569199/"

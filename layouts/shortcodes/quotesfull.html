@@ -1,0 +1,8 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+
+<div class="col-md-12 mb-12">
+  <div class="p-5 shadow rounded-lg">
+    <h3 class="mb-4 ti-quote-left"> {{ .Get 0 | markdownify }}</h3>
+    <p>{{ .Inner | markdownify }}</p>
+  </div>
+</div>
