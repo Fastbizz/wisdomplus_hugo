@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://abhimanyughei.github.io/wisdomplus_hugo/"
+baseURL = "http://localhost:1313/"
 title = "Wisdom Plus"
 theme = "bigspring"
 languageName = "En"
@@ -131,9 +131,8 @@ description = "This is meta description"
 author = "Abhimanyu Ghei" 
 
 ########### footer content ##########
-footer_content = "406 Shivam Towers, Satnami Layout, Bhadewadi Nagpur - 440008"
 # copyright
-copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
+copyright = ""
 
 # Preloader
 [params.preloader]

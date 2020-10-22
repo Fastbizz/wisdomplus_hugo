@@ -1,42 +1,35 @@
-{{ define "main" }}
+{{ define "main" }} {{ partial "page-header.html" . }}
 
-{{ partial "page-header.html" . }}
- <!-- feature -->
-      {{ if site.Data.contact.contactinfo.enable }}
-      {{ with site.Data.contact.contactinfo }}
-      <section class="bg-light" style="padding-top:20px">
-        <div class="container">
-          <div class="row justify-content-center">
-            {{ range .feature_item }}
-            <div class="col-md-3 col-sm-6 mb-4" >
-              <div class="feature-card text-center" style="height:220px;">
-                <i class="{{.icon}} mb-3"></i>
-                <h4 class="mb-2">{{ .name | title }}</h4>
-                <p>{{ .content | markdownify }}</p>
-              </div>
-            </div>
-            {{ end }}
-          </div>
-        </div>
-      </section>
-      {{ end }}
-      {{ end }}
-      <!-- /feature -->
-<section class="section bg-white">
+{{ if site.Data.contact.contactinfo.enable }} 
+{{ with site.Data.contact.contactinfo }}
+<section class="bg-light" style="padding-top: 20px">
   <div class="container">
-      <div class="row">
-      <div class="col-lg-6 mb-4 mb-lg-0">
-        <iframe src="{{site.Data.contact.GooglForms.link}}" width="550" height="1009" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <div class="row justify-content-center">
+      {{ range .feature_item }}
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="feature-card text-center" style="height: 220px">
+          <i class="{{.icon}} mb-3"></i>
+          <h4 class="mb-2">{{ .name | title }}</h4>
+          <p>{{ .content | markdownify }}</p>
+        </div>
       </div>
-      
-      <div class="col-lg-4 content">
-      <iframe src="{{site.Data.contact.maplocation.link}}" width="550" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+      {{ end }}
     </div>
   </div>
 </section>
-
-<!-- call to action -->
-
-<!-- /call to action -->
-
+{{ end }} {{ end }}
+ 
+    <section class="section bg-white">
+      <div class="container">
+          <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <iframe src="{{site.Data.contact.GooglForms.link}}" width="550" height="1009" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          </div>
+          
+          <div class="col-lg-4 content">
+          <iframe src="{{site.Data.contact.maplocation.link}}" width="550" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+      </div>
+    </section>
 {{ end }}
