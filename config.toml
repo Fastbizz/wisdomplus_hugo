@@ -124,7 +124,7 @@ URL = "faq"
 
 #################### default parameters ################################
 [params]
-logo = "/Uploads/longlogo.jpg"
+logo = "Uploads/longlogo.jpg"
 logo_width = "200px"
 # Meta data
 description = "This is meta description"
