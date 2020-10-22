@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org/"
+baseURL = "https://abhimanyughei.github.io/wisdomplus_hugo/"
 title = "Wisdom Plus"
 theme = "bigspring"
 languageName = "En"
