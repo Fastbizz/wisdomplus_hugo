@@ -58,7 +58,7 @@ service:
       button:
         enable : true
         label : "Check it out"
-        link : "/services/business-automation-process/"
+        link : "services/business-automation-process/"
         
     # service item loop
     - title : "Are you a new startup? "
@@ -68,7 +68,7 @@ service:
       button:
         enable : true
         label : "Check it out"
-        link : "/services/business-boot-up-process/"
+        link : "services/business-boot-up-process/"
         
     # service item loop
     - title : "We are a team of experienced and skilled people with distributions"
@@ -78,7 +78,7 @@ service:
       button:
         enable : true
         label : "About Us"
-        link : "/about-us/"
+        link : "about-us/"
         
     # service item loop
     - title : "Strategy Consultancy"
@@ -88,7 +88,7 @@ service:
       button:
         enable : true
         label : "Check it out"
-        link : "#"
+        link : "services/strategy-consultancy/"
         
 ################### Screenshot ########################
 screenshot:
